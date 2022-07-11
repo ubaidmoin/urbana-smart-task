@@ -1,0 +1,127 @@
+.home {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.home-container {
+  display: flex; 
+  margin: 20px;
+}
+.home-scrollView {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow-y: auto;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.row-no-space {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  min-width: 400px;
+  margin: 20px;
+  cursor: pointer;
+  transition: all .2s ease-in-out; 
+}
+.card:hover {
+  transform: scale(1.02);
+}
+.card-image {
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+.card-image-dialog {
+  width: 100%;
+  border-radius: 4px 4px 0px 0px;
+}
+.card-details {
+  padding: 20px;
+}
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  width: 75%;
+}
+.card-rating {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  color: #dbb900;
+}
+.card-label {
+  font-size: 11px;
+  font-weight: 500;
+  color: darkgray
+}
+.card-description {
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+.genre {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0px 5px;
+  color: darkgreen;
+}
+.dialog-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: darkgray;
+  width: 65px;
+}
+.dialog-description {
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+.dialog-rating {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 16px 24px;
+  width: 25%;
+  padding-top: 0px;
+}
+.dialog-rating-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: darkgray;
+  text-align: right;
+}
+.dialog-status-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: darkgray;
+  text-align: left;
+}
+.dialog-title {
+  margin: 0;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  letter-spacing: 0.0075em;
+  flex: 0 0 auto;
+}
+.dialog-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 24px;
+  padding-top: 0px;
+}
